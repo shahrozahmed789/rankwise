@@ -1,0 +1,45 @@
+{
+  "siteUrl": "https://rankwisepure.netlify.app",
+  "brand": "Rankwise",
+  "pages": [
+    {
+      "id": "home",
+      "type": "home",
+      "title": "Home",
+      "slug": "",
+      "status": "published",
+      "noindex": false,
+      "metaTitle": "Rankwise — Free SEO Tools | SERP Checker & Keyword Ideas",
+      "metaDescription": "Use Rankwise's free SERP checker and keyword explorer to view Google organic results and discover keyword ideas. No login or paid plan required.",
+      "focusKeyword": "free SEO tools",
+      "heading": "Know where you rank.\nKnow what to do next.",
+      "intro": "Explore keyword ideas and search results in a clean workspace. Every tool is free to try, with no sign-up or login required."
+    },
+    {
+      "id": "serp-checker",
+      "type": "serp",
+      "title": "SERP Checker",
+      "slug": "serp-checker",
+      "status": "published",
+      "noindex": false,
+      "metaTitle": "Free SERP Checker — Google Search Results | Rankwise",
+      "metaDescription": "Check Google organic search results by keyword, country, language and device with Rankwise's free SERP Checker. No login required.",
+      "focusKeyword": "free SERP checker",
+      "heading": "Free SERP Checker",
+      "intro": "Check Google organic results for a keyword, with location, language and device options. No visitor account required."
+    },
+    {
+      "id": "keyword-explorer",
+      "type": "keyword",
+      "title": "Keyword Explorer",
+      "slug": "keyword-explorer",
+      "status": "published",
+      "noindex": false,
+      "metaTitle": "Free Keyword Explorer — Google Keyword Ideas | Rankwise",
+      "metaDescription": "Discover Google autocomplete keyword ideas by topic, country and language with Rankwise's free Keyword Explorer.",
+      "focusKeyword": "free keyword explorer",
+      "heading": "Free Keyword Explorer",
+      "intro": "Discover related Google autocomplete suggestions from a seed topic. Search volume and CPC are not included in autocomplete data."
+    }
+  ]
+}

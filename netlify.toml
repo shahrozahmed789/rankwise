@@ -1,9 +1,25 @@
 [build]
+  command = "node scripts/build.mjs"
   publish = "public"
+
+[build.environment]
+  NODE_VERSION = "20"
 
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/admin-auth"
+  to = "/.netlify/functions/admin-auth"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/admin-content"
+  to = "/.netlify/functions/admin-content"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/api/serp"

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{META_TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta name="robots" content="{{ROBOTS}}">
+<meta name="keywords" content="{{FOCUS_KEYWORD}}">
+<link rel="canonical" href="{{CANONICAL_URL}}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{META_TITLE}}">
+<meta property="og:description" content="{{META_DESCRIPTION}}">
+<meta property="og:url" content="{{CANONICAL_URL}}">
+{{OG_IMAGE_TAG}}
+{{JSON_LD}}
+<style>
+:root{--green:#059669;--navy:#0b1f33;--ink:#12283d;--muted:#66798c;--line:#e1ebe6;--pale:#f3f8f6}*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff}a{text-decoration:none;color:inherit}.nav{height:auto;min-height:70px;max-width:1180px;margin:auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-size:23px;font-weight:850;color:var(--navy)}.mark{width:28px;height:24px;border:3px solid var(--green);border-top:0;border-right:0;transform:skew(-25deg);position:relative}.mark:after{content:'↗';position:absolute;right:-10px;top:-11px;font-size:25px;color:var(--green);transform:skew(25deg)}.navlinks{display:flex;gap:24px;flex-wrap:wrap;font-size:14px;color:#40566b}.free{font-size:12px;color:#047857;font-weight:800}.hero{background:linear-gradient(120deg,var(--navy),#0e3c42 55%,var(--green));color:white;text-align:center;padding:76px 24px 90px}.eyebrow{text-transform:uppercase;letter-spacing:1.8px;color:#b9f4d7;font-size:11px;font-weight:850}.hero h1{max-width:850px;margin:17px auto 14px;font-size:clamp(35px,5.2vw,58px);line-height:1.08;letter-spacing:-1.6px}.hero p{max-width:740px;margin:0 auto;color:#e0fff0;font-size:16px;line-height:1.8}.page{max-width:920px;margin:-34px auto 0;position:relative;background:#fff;border:1px solid var(--line);box-shadow:0 18px 55px #0b1f3310;border-radius:22px;padding:clamp(24px,5vw,54px)}.page h2{font-size:24px;letter-spacing:-.5px}.prose{font-size:16px;line-height:1.9;color:#42576b;overflow-wrap:anywhere}.prose p{margin:0 0 18px}.cta{margin-top:30px;padding:24px;border-radius:15px;background:var(--pale);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:10px;padding:12px 18px;background:var(--green);color:white;font-weight:750;font-size:14px}.footer{max-width:1120px;margin:0 auto;padding:38px 24px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:12px;border-top:1px solid var(--line);margin-top:70px}.footer a:hover{color:var(--green)}@media(max-width:700px){.nav{padding:14px 18px;align-items:flex-start;flex-direction:column}.navlinks{gap:14px}.hero{padding:55px 18px 70px}.hero p{font-size:14px}.page{margin:-28px 12px 0;padding:24px 18px;border-radius:17px}.footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="nav"><a class="brand" href="/"><span class="mark"></span><span>{{BRAND}}</span></a><nav class="navlinks">{{NAV_LINKS}}</nav><span class="free">Free tools · No visitor login</span></header>
+<section class="hero"><div class="eyebrow">{{PAGE_LABEL}}</div><h1>{{HEADING}}</h1><p>{{INTRO}}</p></section>
+<main class="page"><article class="prose">{{BODY_PARAGRAPHS}}</article>{{CTA_HTML}}</main>
+<footer class="footer"><a class="brand" href="/" style="font-size:18px"><span class="mark"></span><span>{{BRAND}}</span></a><span>© 2026 {{BRAND}} · Free SEO tools</span><span><a href="/">Home</a> · <a href="/serp-checker/">SERP Checker</a> · <a href="/keyword-explorer/">Keyword Explorer</a></span></footer>
+</body>
+</html>
